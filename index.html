@@ -3,17 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sofia</title>
+    <title>Welcome to My GitHub Pages</title>
 
     <style>
         body {
             background-color: lightgreen;
+            margin: 0;
+            padding: 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto auto;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .box {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
         }
     </style>
 </head>
 <body>
-    <h1>Raspberry Pi Project</h1>
-    <p>Sofia Kalugina</p>
-</body>
-</html>
+
+    <div class="grid">
+        <div class="box">
+            <h1>Raspberry Pi Project</h1>
+        </div>
+
+        <div class="box">
+            <p>Sofia Kalugina</p>
+        </div>
+
+        <div class="box">
+            <p>Section 1</p>
+        </div>
+
+        <div class="box">
+            <p>Section 2</p>
+        </div>
+
 
